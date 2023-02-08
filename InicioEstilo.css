@@ -1,0 +1,789 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+.contenedorPanel1{
+    display: flex;
+    height: 721px;
+    background-color: black;
+    width: 100%;
+}
+
+.ImagenP1{
+    margin-top: 150px;
+    display: flex;
+}
+
+.im1p1{
+    height: 571px;
+    width: 500px;
+}
+
+.im1p2{
+    height: 571px;
+    width: 519px;
+}
+
+.im1p3{
+    height: 571px;
+    width: 500px;
+}
+
+.contenedorLetrasPanel1{
+    margin-left: -880px;
+    top: 400px;
+}
+
+.clp1{
+    font-family: 'Cambria Math';
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 243px;
+    margin-left: 13px;
+}
+
+.clp2{
+    font-family: 'Cambria Math';
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 5px;
+    margin-left: 115px;
+}
+
+.clp3{
+    font-family: 'Cambria Math';
+    color: white;
+    font-weight: bold;
+    margin-left: 90px;
+    font-size: 42px;
+    margin-top: 5px;
+}
+
+
+.contenedorPanel2{
+    display: flex;
+    height: 2700px;
+    background-color: rgb(82, 79, 79);
+    width: 100%;
+}
+
+.tituloPanel2{
+    margin-left: 330px;
+    height: 50px;
+    width: 941px;
+    margin-top: 25px;
+    color: rgb(242, 242, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: 15px;
+    
+}
+
+.contenedorGeral{
+    display: flex;
+    border-radius: 25px;
+    margin-top: 85px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -1210px;
+    height: 400px;
+    width: 1400px;
+}
+
+.Tgeral{
+    font-size: 52px;
+    color: azure;
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 780px;
+}
+
+.contenedorLetrasGeralPanel2{
+    padding: 15px;
+    margin-left: -750px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 221);
+    width: 520px;
+    height: 270px;
+    border-radius: 50px;
+}
+
+.LetrasGeralPanel2{
+    font-size: 17px;
+    color: brown;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+.imgGeral{
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+
+.dGeral{
+    width: 150px;
+    height: 190px;
+    margin-top: 210px;
+    border-radius: 60px;
+    margin-left: -1300px;
+}
+
+
+
+.contenedorAxl{
+    display: flex;
+    border-radius: 25px;
+    margin-top: 535px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -1400px;
+    height: 400px;
+    width: 1400px;
+}
+
+.Taxl{
+    font-size: 52px;
+    color: azure;
+    margin-top: 10px;
+    margin-left: 800px;
+    height: 80px;
+    width: 350px;
+}
+
+.contenedorLetrasAxlPanel2{
+    padding: 15px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 221);
+    width: 520px;
+    height: 270px;
+    border-radius: 50px;
+    margin-left: -400px;
+}
+
+.LetrasAxlPanel2{
+    font-size: 17px;
+    color: brown;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.imgAxl{
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: -1080px;
+}
+
+.dAxl{
+    width: 190px;
+    height: 190px;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.tituloMaitaPanel2{
+    margin-top: 970px;
+    margin-left: -1100px;
+    color: rgb(242, 242, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+}
+
+.contenedorMaia{
+    display: flex;
+    border-radius: 25px;
+    margin-top: 1030px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -1170px;
+    height: 400px;
+    width: 1400px;
+}
+
+.TMaia{
+    font-size: 52px;
+    color: azure;
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 780px;
+}
+
+.contenedorLetrasMaiaPanel2{
+    padding: 15px;
+    margin-left: -900px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 221);
+    width: 520px;
+    height: 270px;
+    border-radius: 50px;
+}
+
+.LetrasMaiaPanel2{
+    font-size: 17px;
+    color: brown;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+.imgMaia{
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+
+.dMaia{
+    width: 150px;
+    height: 190px;
+    margin-top: 210px;
+    border-radius: 60px;
+    margin-left: -1300px;
+}
+
+.tituloDexterPanel2{
+    margin-top: 1470px;
+    margin-left: -1100px;
+    color: rgb(242, 242, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+}
+
+.contenedorDexter{
+    display: flex;
+    border-radius: 25px;
+    margin-top: 1555px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -1293px;
+    height: 400px;
+    width: 1400px;
+}
+
+.TDexter{
+    font-size: 52px;
+    color: azure;
+    margin-top: 10px;
+    margin-left: 800px;
+    height: 80px;
+    width: 350px;
+}
+
+.contenedorLetrasDexterPanel2{
+    padding: 15px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 221);
+    width: 520px;
+    height: 270px;
+    border-radius: 50px;
+    margin-left: -400px;
+}
+
+.LetrasDexterPanel2{
+    font-size: 17px;
+    color: brown;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.imgDexter{
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: -1080px;
+}
+
+.dDexter{
+    width: 190px;
+    height: 190px;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.tituloHulckPanel2{
+    margin-top: 1970px;
+    margin-left: -1270px;
+    color: rgb(242, 242, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+}
+
+.contenedorHulck{
+    display: flex;
+    border-radius: 25px;
+    margin-top: 2030px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -1380px;
+    height: 400px;
+    width: 1400px;
+}
+
+.THulck{
+    font-size: 52px;
+    color: azure;
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 780px;
+}
+
+.contenedorLetrasHulckPanel2{
+    padding: 15px;
+    margin-left: -900px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 221);
+    width: 520px;
+    height: 270px;
+    border-radius: 50px;
+}
+
+.LetrasHulckPanel2{
+    font-size: 17px;
+    color: brown;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+.imgHulck{
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+
+.dHulck{
+    width: 150px;
+    height: 290px;
+    margin-top: 100px;
+    border-radius: 60px;
+    margin-left: -1300px;
+}
+
+@media(max-width: 500px){
+    body{
+        width: 270px;
+    }
+
+    .contenedorPanel1{
+        display: flex;
+        height: 900px;
+        background-color: black;
+        width: 360px;
+    }
+    
+    .ImagenP1{
+        margin-top: -0px;
+        width: 360px; 
+    }
+    
+    .im1p1{
+        height: 300px;
+        width: 360px;
+    }
+    
+    .im1p2{
+        margin-top: 300px;
+        margin-left: -360px;
+        height: 300px;
+        width: 360px;
+    }
+    
+    .im1p3{
+        margin-top: 600px;
+        margin-left: -360px;
+        height: 300px;
+        width: 360px;
+    }
+    
+    .contenedorLetrasPanel1{
+        margin-top: 106px;
+        margin-left: -300px;
+    }
+    
+    .clp1{
+        font-family: 'Cambria Math';
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 243px;
+        margin-left: 65px;
+    }
+    
+    .clp2{
+        font-family: 'Cambria Math';
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 4px;
+        margin-left: 120px;
+    }
+    
+    .clp3{
+        font-family: 'Cambria Math';
+        color: white;
+        font-weight: bold;
+        margin-left: 105px;
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    
+
+    .contenedorPanel2{
+        display: flex;
+        height: 3180px;
+        background-color: rgb(82, 79, 79);
+        width: 360px;
+    }
+    
+    .tituloPanel2{
+        margin: 0;
+        padding: 0;
+        margin-left: 3px;
+        height: 25px;
+        width: 350px;
+        color: rgb(242, 242, 0);
+        font-size: 10px;
+        margin-top: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    
+    .contenedorGeral{
+        display: flex;
+        border-radius: 25px;
+        margin-top: 50px;
+        background-color: rgb(0, 0, 0);
+        height: 580px;
+        width: 340px;
+        margin-left: -345px;
+    }
+    
+    .Tgeral{
+        display: flex;
+        margin-left: 25px;
+        font-size: 27px;
+        color: azure;
+        margin-top: 10px;
+        width: 300px;
+    }
+    
+    .contenedorLetrasGeralPanel2{
+        padding: 15px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 255, 221);
+        width: 300px;
+        height: 280px;
+        border-radius: 50px;
+        margin-left: -300px;
+    }
+    
+    .LetrasGeralPanel2{
+        font-size: 13px;
+        color: brown;
+        font-weight: bold;
+        font-family: monospace;
+        width: 300px;
+    }
+    
+    
+    .imgGeral{
+        margin-top: 360px;
+        width: 170px;
+        height: 170px;
+        border-radius: 10px;
+        margin-left: -170px;
+
+    }
+    
+    .dGeral{
+        width: 150px;
+        height: 180px;
+        margin-top: 360px;
+        border-radius: 60px;
+        margin-left: -320px;
+    }
+    
+    
+    /*EDITAR A PARTIR DE ACA*/
+
+    .contenedorAxl{
+        display: flex;
+        border-radius: 25px;
+        margin-top: 655px;
+        background-color: rgb(0, 0, 0);
+        height: 580px;
+        width: 340px;
+        margin-left: -340px;
+    }
+    
+    .Taxl{
+        display: flex;
+        font-size: 27px;
+        color: azure;
+        margin-top: 10px;
+        width: 200px;
+        margin-left: 90px;
+    }
+    
+    .contenedorLetrasAxlPanel2{
+        padding: 15px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 255, 221);
+        width: 300px;
+        height: 280px;
+        border-radius: 50px;
+        margin-left: -260px;
+    }
+    
+    .LetrasAxlPanel2{
+        font-size: 13px;
+        color: brown;
+        font-weight: bold;
+        font-family: monospace;
+        width: 300px;
+    }
+    
+    .imgAxl{
+        margin-left: -300px;
+        margin-top: 360px;
+        width: 170px;
+        height: 170px;
+        border-radius: 10px;
+    }
+    
+    .dAxl{
+        width: 150px;
+        height: 180px;
+        margin-top: 360px;
+        margin-left: 0px;
+    }
+
+    .tituloMaitaPanel2{
+        margin-top: 1250px;
+        padding: 0;
+        color: rgb(242, 242, 0);
+        margin-left: -339px;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .contenedorMaia{
+        display: flex;
+        border-radius: 25px;
+        margin-top: 1290px;
+        background-color: rgb(0, 0, 0);
+        height: 580px;
+        width: 340px;
+        margin-left: -335px;
+    }
+    
+    .TMaia{
+        display: flex;
+        margin-left: 130px;
+        font-size: 27px;
+        color: azure;
+        margin-top: 10px;
+        width: 300px;
+    }
+    
+    .contenedorLetrasMaiaPanel2{
+        padding: 15px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 255, 221);
+        width: 300px;
+        height: 280px;
+        border-radius: 50px;
+        margin-left: -410px;
+    }
+    
+    .LetrasMaiaPanel2{
+        font-size: 13px;
+        color: brown;
+        font-weight: bold;
+        font-family: monospace;
+        width: 300px;
+    }
+    
+    
+    .imgMaia{
+        margin-top: 360px;
+        width: 170px;
+        height: 170px;
+        border-radius: 10px;
+        margin-left: -170px;
+
+    }
+    
+    .dMaia{
+        width: 150px;
+        height: 180px;
+        margin-top: 360px;
+        border-radius: 60px;
+        margin-left: -320px;
+    }
+    
+    .tituloDexterPanel2{
+        margin-top: 1890px;
+        padding: 0;
+        color: rgb(242, 242, 0);
+        margin-left: -340px;
+        font-size: 8.7px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .contenedorDexter{
+        display: flex;
+        border-radius: 25px;
+        margin-top: 1920px;
+        background-color: rgb(0, 0, 0);
+        height: 580px;
+        width: 340px;
+        margin-left: -336px;
+    }
+    
+    .TDexter{
+        display: flex;
+        font-size: 27px;
+        color: azure;
+        margin-top: 10px;
+        width: 200px;
+        margin-left: 120px;
+    }
+    
+    .contenedorLetrasDexterPanel2{
+        padding: 15px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 255, 221);
+        width: 300px;
+        height: 280px;
+        border-radius: 50px;
+        margin-left: -300px;
+    }
+    
+    .LetrasDexterPanel2{
+        font-size: 13px;
+        color: brown;
+        font-weight: bold;
+        font-family: monospace;
+        width: 300px;
+    }
+    
+    .imgDexter{
+        margin-left: -300px;
+        margin-top: 360px;
+        width: 170px;
+        height: 170px;
+        border-radius: 10px;
+    }
+    
+    .dDexter{
+        width: 150px;
+        height: 180px;
+        margin-top: 360px;
+        margin-left: 0px;
+    }
+
+    .tituloHulckPanel2{
+        margin-top: 2510px;
+        padding: 0;
+        color: rgb(242, 242, 0);
+        margin-left: -340px;
+        font-size: 7px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .contenedorHulck{
+        display: flex;
+        border-radius: 25px;
+        margin-top: 2540px;
+        background-color: rgb(0, 0, 0);
+        height: 580px;
+        width: 340px;
+        margin-left: -335px;
+    }
+    
+    .THulck{
+        display: flex;
+        margin-left: 130px;
+        font-size: 27px;
+        color: azure;
+        margin-top: 10px;
+        width: 300px;
+    }
+    
+    .contenedorLetrasHulckPanel2{
+        padding: 15px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 255, 221);
+        width: 300px;
+        height: 280px;
+        border-radius: 50px;
+        margin-left: -410px;
+    }
+    
+    .LetrasHulckPanel2{
+        font-size: 13px;
+        color: brown;
+        font-weight: bold;
+        font-family: monospace;
+        width: 300px;
+    }
+    
+    
+    .imgHulck{
+        margin-top: 360px;
+        width: 170px;
+        height: 170px;
+        border-radius: 10px;
+        margin-left: -170px;
+
+    }
+    
+    .dHulck{
+        width: 150px;
+        height: 180px;
+        margin-top: 360px;
+        border-radius: 60px;
+        margin-left: -320px;
+    }
+}
